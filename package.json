@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/mrthakur30/sunder-website/issues"
   },
-  "homepage": "https://github.com/mrthakur30/sunder-website#readme"
+  "homepage": "https://github.com/mrthakur30/sunder-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "vite": "^4.0.3"
+  }
 }
